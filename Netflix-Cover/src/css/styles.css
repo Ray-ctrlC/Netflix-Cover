@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: #f3f3f3;
+    color: #333;
+     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url('https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-48b7-854d-ca055a84fb4f/127386bd-018c-442b-8263-bb26b9b42f37/BR-pt-20231204-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+     background-size: cover;
+
+     position: relative;
+
+     height: 1102px;
+     min-height: 100vh;
+
+    -moz-osx-font-smoothing: grayscale;
+
+     -webkit-font-smoothing: antialiased;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-color: #e50914;
+
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+
+    margin-bottom: 16px;
+}
+
+body, input, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Inicio do Header */
+
+header a {
+    display: flex;
+    align-items: center;
+    
+    height: 90px;
+    width: 167px;
+
+    margin-left: 3%;
+}
+
+header img {
+    height: 100px;
+    width: 180px;
+    display: block;
+}
+
+/* fim do Header */
+
+/* Inicio da Main */
+
+.sigin-box {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    min-height: 660px;
+    width: 450px;
+
+    padding: 60px 68px 40px;
+    border-radius: 4px;
+
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+.sigin-box h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.sigin-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sigin-box input[type="email"], input[type="password"] {
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+
+    margin-bottom: 16px;
+
+    background: #333;
+}
+
+.singin-box form button[type="submit"] {
+    padding: 16px;
+    text-align: center;
+    border-radius: 4px;
+
+    font-weight: 500;
+    margin: 24px 0px 12px;
+
+    background: #e50914;
+    color: #fff
+}
+
+.remember-toSigin {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2px 0px 3rem;
+
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.remember-toSigin a {
+    text-decoration: none;
+    color: #b3b3b3
+}
+
+.remember-toSigin a:hover {
+    text-decoration: underline;
+}
+
+.remember-toSigin div {
+    display: flex;
+    align-items: center;
+    color: #b3b3b3;
+}
+
+.remember-toSigin div input {
+    margin-right: .25rem;
+    height: 16px;
+    width: 16px;
+}
+
+.singin-box h4 {
+    margin-top: 40px;
+
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.singin-box h4 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.singin-box h4 a strong {
+    font-weight: 400;
+    
+
+}
+
+.singin-box h4 a:hover {
+    text-decoration: underline;
+}
+
+.sigin-box p {
+    color: #8c8c8c;
+    font-size: 13px;
+
+    margin: 1rem 0rem
+}
+
+
+/* Fim do main */
+
+/* Inicio do Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+
+    padding: 30px 0;
+
+    min-height: 260px;
+    background-color:rgba(0, 0, 0, .75);
+    color: #737373;
+}
+
+.footer-content{
+    margin: 0 auto;
+
+    max-width: 1000px;
+    width: 90%;
+}
+
+.footer-content p {
+    margin-bottom: 30px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    display: flex;
+
+    margin-bottom: 22px;
+    gap: 2rem 0rem;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+.links li {
+    width: 25%;
+}
+
+.links a {
+    font-size: 0.8125rem;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.language {
+    margin-top: 20px;
+    padding: 5px 1rem;
+
+    width: 138px;
+    height: 48px;
+
+    background: #000;
+    color: #737373;
+}

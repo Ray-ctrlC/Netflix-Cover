@@ -1,0 +1,48 @@
+@media (max-width: 740px) {
+    body {
+        background: #000;
+        height: auto;
+    }
+
+    .singin-box {
+        width: 100%;
+        min-height: 550px;
+        padding: 20px 5%;
+    }
+
+    footer {
+        position: inherit;
+        border-top: 1px solid;
+    }
+
+    .links li {
+        width: 33%;
+    }
+}
+  
+@media (max-width: 500px) {
+    .links li {
+        width: 50%;
+    }
+}
+
+@media (max-width: 440px) {
+    header {
+        height: 45px;
+    }
+
+    header img {
+        width: 75px;
+        height: 20px;
+    }
+
+    header a {
+        height: 45px;
+    }
+}
+
+@media (max-width: 250px) {
+    .links li {
+        width: 100%;
+    }
+}
